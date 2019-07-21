@@ -1,0 +1,27 @@
+name: OinkChannels
+version: 1.0
+main: zaphx.oinkchannels.OinkChannels
+api-version: 1.13
+prefix: OinkChannels
+description: This plugin adds rank specific channels to a server
+website: https://github.com/Zaph-x
+
+commands:
+  sc:
+    usage: /sc message
+    permission: oinkchannels.channel.sc
+  tc:
+    usage: /tc message
+    permission: oinkchannels.channel.tc
+  rt:
+    usage: /rt message
+    permission: oinkchannels.channel.rt
+  sctoggle:
+    usage: /sctoggle
+    permission: oinkchannels.channel.sc
+  tctoggle:
+    usage: /tctoggle
+    permission: oinkchannels.channel.tc
+  rttoggle:
+    usage: /rttoggle
+    permission: oinkchannels.channel.rt
